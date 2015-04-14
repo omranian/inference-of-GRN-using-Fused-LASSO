@@ -1,0 +1,1 @@
+The results of the analysis will be save in form of R objects ('gene_name.obj') in this directory.
