@@ -5,8 +5,11 @@ Gene regulatory network inference using fused LASSO on multiple data sets: appli
 To run the program with the introduced data in the article, you only need to do as follows:
 
 1- Run R 
-2- library(lqa)
+
+2- library(lqa) 
+
 3- trace(fused.lasso,edit=T)
+
 4- substitute the existing function with the function in fused.lasso.modified.r (following function):
 						
 	function (lambda = NULL, ...) 					
